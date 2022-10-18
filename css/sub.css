@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+.faclities_container {
+    /* margin-bottom: 100px; */
+}
+
+.container {      
+    padding: 0 20px;
+}
+
+.keyVisual {
+    height: 673px;    
+    background:#EEEEEE ;    
+}
+.keyVisual .title {
+    position: absolute;
+    top: 360px;
+    width: 100%;    
+    text-align: center;
+}
+.keyVisual h1 {
+    font-size:48px ;
+    font-weight: bold;
+    color: #fff;
+}
+.keyVisual .visual {
+    background: url('../img/sub/sub1.JPG');
+    background-position: center;
+    height: 100%;    
+    max-width: 100%;
+}
+
+.visual_sub_nav {
+    position: relative;
+    top: -230px;
+}
+.visual_sub_nav table {
+    margin: auto;
+}
+.visual_sub_nav table td {
+    padding: 0 20px;
+    position: relative;
+}
+.visual_sub_nav table td a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+
+}
+
+.visual_sub_nav table td.active a {
+    color: red;
+    border-bottom:1px solid red;
+    font-weight: 500;
+    margin-bottom: -4px;
+}
+
+.visual_sub_nav table td.active a:after {
+    position: absolute;
+    content: "";
+    left: calc(50% - 11px);
+    bottom: -7px;
+    width: 22px;
+    height: 5px;
+    background: url('../img/icon_snb_arr.png');
+}
+
+
+
+.fitness_cont {
+    margin-top: 40px;
+}
+
+.fitness_title {
+    position: relative;
+    margin: 70px 0 50px 0;
+
+}
+.fitness_title .title {
+    color: #000;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+.fitness_title .title strong {
+    display: block;
+    font-size: 35px;
+
+
+}
+.fitness_title .title span {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+
+.title_imges {
+    text-align: center;
+}
+.title_imges img {
+    max-width: 50%;
+}
+
+.find_btn_wrap {
+    text-align: center;
+    padding-top: 50px;
+}
+.btn_purple {
+    padding: 10px 15px;
+    margin: 0 50px;
+    background: #fff;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+    
+}
+
+.bottom_photo {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/sub/fac01_kv.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.bottom_photo_next {
+    font-size: 15px;
+    color: #fff;
+}
+.bottom_photo_spa {
+    font-size: 30px;
+}
